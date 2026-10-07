@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" fill="none"><defs><linearGradient id="cloth" x1="80" y1="80" x2="240" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#82b4a1"/><stop offset=".55" stop-color="#3d786e"/><stop offset="1" stop-color="#214c49"/></linearGradient><linearGradient id="fur" x1="100" y1="50" x2="220" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#f8ba76"/><stop offset="1" stop-color="#bc694f"/></linearGradient><linearGradient id="metal" x1="80" y1="160" x2="250" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#d5dcc8"/><stop offset=".48" stop-color="#839d92"/><stop offset="1" stop-color="#496d66"/></linearGradient><radialGradient id="glow"><stop stop-color="#ffe9a0" stop-opacity=".9"/><stop offset="1" stop-color="#efc873" stop-opacity="0"/></radialGradient></defs><g stroke="#17352f" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="164" cy="329" rx="110" ry="17" fill="#071f1c" opacity=".3" stroke="none"/>
+<path d="M108 232L91 318L105 324L135 255M188 249L212 321L228 323L210 224" fill="#637e6b"/>
+<path d="M101 153Q74 188 92 249Q145 278 210 247Q242 198 219 158L191 138L130 138Z" fill="#8d9c79"/>
+<path d="M108 164Q131 185 161 191Q190 178 216 157L202 214L167 244L123 222Z" fill="#c3c59d"/>
+<path d="M125 116L101 100L77 105L97 127L123 133M196 117L222 99L246 103L223 127L199 136" fill="#8c9b79"/>
+<path d="M120 92Q116 55 98 37L78 35L65 12M103 44L111 18M124 87L148 68L146 37M198 90Q204 50 223 34L244 33L257 12M218 43L213 15M197 85L176 65L178 34" stroke="#b4bd8c" stroke-width="10"/>
+<path d="M120 92Q118 54 98 37M198 90Q204 50 223 34" stroke="#e1ce98" stroke-width="3"/>
+<path d="M124 89Q158 66 194 88L204 137L182 187L161 200L139 183L119 136Z" fill="#8d9c79"/>
+<path d="M145 85L160 99L177 86L173 157L161 184L149 158Z" fill="#ddd2a6"/>
+<path d="M128 129L143 136M179 136L195 128" stroke="#293e32" stroke-width="5"/>
+<path d="M151 174L161 183L173 173L162 168Z" fill="#3c5642"/>
+<path d="M135 86Q128 58 143 45Q161 63 152 79M184 81Q193 55 207 61Q210 81 191 89" fill="#6b9271"/>
+<path d="M106 188L110 203M213 183L207 197M132 244L145 247" stroke="#e0cc94" stroke-width="3"/>
+<circle cx="162" cy="216" r="12" fill="#e0bd74"/><path d="M162 207L166 216L162 225L157 216Z" fill="#fae2a1" stroke="none"/>
+<path d="M209 211Q242 191 252 212L239 226L218 229" fill="#6f8e6a"/>
+</g></svg>

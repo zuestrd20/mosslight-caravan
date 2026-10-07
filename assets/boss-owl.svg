@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" fill="none"><defs><linearGradient id="cloth" x1="80" y1="80" x2="240" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#82b4a1"/><stop offset=".55" stop-color="#3d786e"/><stop offset="1" stop-color="#214c49"/></linearGradient><linearGradient id="fur" x1="100" y1="50" x2="220" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#f8ba76"/><stop offset="1" stop-color="#bc694f"/></linearGradient><linearGradient id="metal" x1="80" y1="160" x2="250" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#d5dcc8"/><stop offset=".48" stop-color="#839d92"/><stop offset="1" stop-color="#496d66"/></linearGradient><radialGradient id="glow"><stop stop-color="#ffe9a0" stop-opacity=".9"/><stop offset="1" stop-color="#efc873" stop-opacity="0"/></radialGradient></defs><g stroke="#17352f" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="158" cy="327" rx="120" ry="19" fill="#071f1c" opacity=".3" stroke="none"/>
+<path d="M112 267L97 318L136 308L157 279M181 281L200 311L230 316L209 268" fill="#c8b17b"/>
+<path d="M95 161Q48 179 29 247L66 238L54 278L94 254L99 282L132 242M215 157Q269 167 294 237L257 232L272 272L233 253L224 286L193 245" fill="#716f81"/>
+<path d="M95 137Q79 93 92 52L136 81L178 77L226 48L218 132Q258 190 225 263Q195 306 148 297Q89 286 81 231Q72 178 95 137Z" fill="#8a8190"/>
+<path d="M107 177Q161 158 212 179L211 244Q190 279 155 280Q120 271 106 237Z" fill="#cac4ae"/>
+<path d="M132 220L142 230L152 220M167 221L177 230L187 219M145 244L156 254L168 244" stroke="#8c9184" stroke-width="4"/>
+<path d="M88 119Q112 82 154 109L165 134Q172 93 212 102Q239 126 215 170Q188 194 160 156Q127 194 99 171Q76 148 88 119Z" fill="#d9d4b6"/>
+<ellipse cx="122" cy="137" rx="20" ry="26" fill="#514f60"/><ellipse cx="197" cy="137" rx="20" ry="26" fill="#514f60"/>
+<ellipse cx="124" cy="139" rx="10" ry="16" fill="#e3b977" stroke="none"/><ellipse cx="195" cy="139" rx="10" ry="16" fill="#e3b977" stroke="none"/><ellipse cx="126" cy="139" rx="4" ry="12" fill="#2b3736" stroke="none"/><ellipse cx="193" cy="139" rx="4" ry="12" fill="#2b3736" stroke="none"/>
+<path d="M147 147L160 169L173 146L160 139Z" fill="#bd9369"/>
+<path d="M92 104L128 116M185 117L225 97" stroke="#514f60" stroke-width="7"/>
+<path d="M145 76L130 41L153 55L171 29L181 57L202 43L186 77" fill="#a6ad8b"/>
+<path d="M54 221L88 195M233 194L269 215M63 244L93 218M228 222L256 246" stroke="#a199a6" stroke-width="3"/>
+</g></svg>

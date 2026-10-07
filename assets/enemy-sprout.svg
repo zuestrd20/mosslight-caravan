@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" fill="none"><defs><linearGradient id="cloth" x1="80" y1="80" x2="240" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#82b4a1"/><stop offset=".55" stop-color="#3d786e"/><stop offset="1" stop-color="#214c49"/></linearGradient><linearGradient id="fur" x1="100" y1="50" x2="220" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#f8ba76"/><stop offset="1" stop-color="#bc694f"/></linearGradient><linearGradient id="metal" x1="80" y1="160" x2="250" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#d5dcc8"/><stop offset=".48" stop-color="#839d92"/><stop offset="1" stop-color="#496d66"/></linearGradient><radialGradient id="glow"><stop stop-color="#ffe9a0" stop-opacity=".9"/><stop offset="1" stop-color="#efc873" stop-opacity="0"/></radialGradient></defs><g stroke="#17352f" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="158" cy="322" rx="78" ry="15" fill="#071f1c" opacity=".3" stroke="none"/>
+<path d="M122 260L104 304L124 314L147 276M177 278L196 311L218 300L204 257" fill="#6f9267"/>
+<path d="M100 194Q59 214 61 250L97 238L114 213M212 190Q248 204 253 235L221 225L203 211" fill="#7f9d6b"/>
+<path d="M112 179Q91 137 111 112Q98 77 127 66Q154 48 178 74Q207 66 218 94Q236 118 213 143L219 203Q229 267 178 284Q125 291 98 247Q80 214 112 179Z" fill="#94af79"/>
+<path d="M124 113Q163 137 208 111M114 180Q154 196 215 177" stroke="#577f5e" stroke-width="4"/>
+<path d="M150 92Q101 89 98 43Q142 36 161 81Q181 23 222 39Q223 80 168 95" fill="#658c66"/><path d="M159 87L119 55M165 86L204 53" stroke="#b7c18a" stroke-width="3"/>
+<path d="M129 197L143 201M181 201L195 194" stroke="#284b3b" stroke-width="5"/><ellipse cx="138" cy="214" rx="5" ry="7" fill="#254936" stroke="none"/><ellipse cx="185" cy="214" rx="5" ry="7" fill="#254936" stroke="none"/>
+<path d="M149 239Q162 229 175 240" stroke="#42684c" stroke-width="4"/>
+<path d="M116 158L126 164M193 153L204 146M110 233L119 237M196 248L205 242" stroke="#c4c894" stroke-width="5"/>
+<path d="M139 273L151 256M184 271L178 256" stroke="#587c57"/>
+</g></svg>

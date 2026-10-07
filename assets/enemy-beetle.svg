@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" fill="none"><defs><linearGradient id="cloth" x1="80" y1="80" x2="240" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#82b4a1"/><stop offset=".55" stop-color="#3d786e"/><stop offset="1" stop-color="#214c49"/></linearGradient><linearGradient id="fur" x1="100" y1="50" x2="220" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#f8ba76"/><stop offset="1" stop-color="#bc694f"/></linearGradient><linearGradient id="metal" x1="80" y1="160" x2="250" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#d5dcc8"/><stop offset=".48" stop-color="#839d92"/><stop offset="1" stop-color="#496d66"/></linearGradient><radialGradient id="glow"><stop stop-color="#ffe9a0" stop-opacity=".9"/><stop offset="1" stop-color="#efc873" stop-opacity="0"/></radialGradient></defs><g stroke="#17352f" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="160" cy="319" rx="111" ry="17" fill="#071f1c" opacity=".3" stroke="none"/>
+<path d="M99 190L59 170L41 192M96 231L48 236L33 260M107 275L71 299L61 321M222 190L261 170L278 192M225 231L273 236L288 260M215 275L251 299L261 321" stroke="#596d5c" stroke-width="12"/>
+<path d="M104 171Q107 118 159 112Q214 115 219 171Q250 217 226 274Q213 306 165 311Q113 307 95 273Q72 220 104 171Z" fill="#a67870"/>
+<path d="M160 157L158 306M107 170Q158 195 216 171" stroke="#4c5145" stroke-width="5"/>
+<path d="M111 190Q85 239 113 274M125 294L133 299M175 193Q211 194 217 224" stroke="#d4a084" stroke-width="5" opacity=".8"/>
+<path d="M106 156Q102 118 126 92L143 118L160 73L178 119L199 91Q225 121 216 158Q170 185 106 156Z" fill="#7a8e70"/>
+<path d="M131 147L143 150M177 149L190 145" stroke="#edd49a" stroke-width="6"/>
+<path d="M139 100Q116 79 101 48M183 97Q208 72 222 47" stroke="#596d5c" stroke-width="7"/>
+<path d="M100 52L93 39M221 50L229 38" stroke="#bcba80" stroke-width="8"/>
+<path d="M151 171L163 179L176 171" stroke="#293f32" stroke-width="3"/>
+<circle cx="132" cy="227" r="13" fill="#795e57" stroke="none"/><circle cx="191" cy="262" r="15" fill="#795e57" stroke="none"/>
+</g></svg>

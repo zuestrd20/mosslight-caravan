@@ -1,0 +1,1 @@
+{"name":"mosslight-caravan","version":"1.0.0","type":"module","scripts":{"test":"node --test engine.test.mjs ui-audit.test.mjs","check":"node --check app.js && node --check engine.js && node --check assets/art.js"},"private":true}
