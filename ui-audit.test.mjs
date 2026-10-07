@@ -10,7 +10,9 @@ function harness({metadata=null,storageFailure=false}={}) {
   const nodes=new Map(),windowEvents=new Map(),documentEvents=new Map(),frames=new Map(),timeouts=new Map();
   let nextId=0;
   class Element {
-    constructor(name){this.name=name;this.innerHTML='';this.textContent='';this.value='audit';this.dataset={};this.style={};this.children=[];this.listeners=new Map();this.removed=false;this.open=false;this.classes=new Set();this.classList={add:(...v)=>v.forEach(s=>this.classes.add(s)),remove:(...v)=>v.forEach(s=>this.classes.delete(s))};}
+    constructor(name){this.name=name;this._innerHTML='';this.textContent='';this.value='audit';this.dataset={};this.style={};this.children=[];this.listeners=new Map();this.removed=false;this.open=false;this.classes=new Set();this.classList={add:(...v)=>v.forEach(s=>this.classes.add(s)),remove:(...v)=>v.forEach(s=>this.classes.delete(s))};}
+    get innerHTML(){return this._innerHTML;}
+    set innerHTML(html){this._innerHTML=html;for(const m of html.matchAll(/<[^>]+\sid="([^"]+)"[^>]*>([^<]*)/g)){const child=new Element('#'+m[1]);child.textContent=m[2];nodes.set('#'+m[1],child);}}
     addEventListener(type,fn){this.listeners.set(type,fn);}
     getBoundingClientRect(){return {left:0,top:0,width:600,height:500};}
     append(child){this.children.push(child);}
@@ -94,4 +96,13 @@ test('a second pointer cannot replace an active drag and orphan its ghost',()=>{
 test('opening menu during drag cancels the drag',()=>{
   const h=harness();h.reset();const first=h.get('game.bag.items[0]');h.pointerDown(first.id,150,50);h.move(350,250);h.run('actions.menu();');
   assert.equal(h.get('drag'),null);assert.equal(h.node('body').children.filter(n=>!n.removed).length,0);
+});
+
+test('pause retains the current battle timer and recent combat log',()=>{
+  const h=harness();h.reset();h.run('actions.battle();E.tickBattle(game,3);updateHUD();actions.pause();');
+  assert.equal(h.node('#battle-time').textContent,'3.0');assert.match(h.node('#combat-log').innerHTML,/s ·/);
+});
+test('autosave failure stays visible after a successful shop action',()=>{
+  const h=harness({storageFailure:true});h.reset();h.run("act(()=>E.buyItem(game,game.shop.offers[0].id),'已收入行囊。');");
+  assert.match(h.node('#toast').textContent,/無法|失敗/);
 });

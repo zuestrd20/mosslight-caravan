@@ -33,13 +33,13 @@ export const BLESSINGS = freeze({
 });
 export const STAGES = freeze([
   {name:'苔徑入口',enemy:'迷途木偶',icon:'♟',hp:380,damage:8,interval:1.85},
-  {name:'風鈴草原',enemy:'荊棘野豬',icon:'♜',hp:750,damage:11,interval:1.8},
+  {name:'風鈴草原',enemy:'荊棘甲蟲',icon:'♜',hp:750,damage:11,interval:1.8},
   {name:'古根石門',enemy:'盤根巨像',icon:'♛',hp:1350,damage:15,interval:1.9,boss:true},
-  {name:'月露沼澤',enemy:'薄暮飛蛾',icon:'♝',hp:1900,damage:16,interval:1.75},
+  {name:'月露沼澤',enemy:'月露泥靈',icon:'♝',hp:1900,damage:16,interval:1.75},
   {name:'銀蕈密林',enemy:'孢霧獵手',icon:'♞',hp:2450,damage:19,interval:1.8},
   {name:'回聲深谷',enemy:'霧角守望者',icon:'♛',hp:3250,damage:23,interval:1.9,boss:true},
   {name:'螢火斷橋',enemy:'空殼騎士',icon:'♜',hp:4000,damage:24,interval:1.75},
-  {name:'星落庭院',enemy:'噬光藤獸',icon:'♞',hp:4900,damage:28,interval:1.8},
+  {name:'星落庭院',enemy:'噬光黏獸',icon:'♞',hp:4900,damage:28,interval:1.8},
   {name:'苔光聖所',enemy:'黯冠森王',icon:'♛',hp:6000,damage:33,interval:1.9,boss:true}
 ]);
 const scale = t => [0,1,2.15,4.6][t] || 1;
